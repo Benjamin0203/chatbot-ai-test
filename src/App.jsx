@@ -18,14 +18,14 @@ const API_KEY = import.meta.env.VITE_API_KEY;
 
 const systemMessage = {
   role: "system",
-  content: "Explain like Steve Jobs",
+  content: "Explain like a comedian",
 };
 
 function App() {
   const [typing, setTyping] = useState(false);
   const [messages, setMessages] = useState([
     {
-      message: "Hello I am chatGpt!",
+      message: "Hi how can I assist you?",
       sender: "ChatGpt",
       direction: "incoming",
     },
@@ -48,6 +48,7 @@ function App() {
     //process message to chatGpt
     await processMessageToChatGpt(newMessages);
   };
+
   async function processMessageToChatGpt(chatMessages) {
     let apiMessages = chatMessages.map((messageObject) => {
       let role = "";
