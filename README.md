@@ -14,3 +14,12 @@ note: it has to be `VITE_SOME_KEY` form
 `npm i`
 then
 `npm run dev`
+
+---
+# Showcase
+
+
+
+
+https://user-images.githubusercontent.com/25517478/223238133-42e753c5-ad8e-43a1-a946-784fb0e49e76.mov
+
